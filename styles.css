@@ -16,7 +16,7 @@ body {
 
 /* Header with Background Image */
 header {
-    background-image: url('./assets/images/back3.avif'); /* Path of image */
+    background-image: url('./assets/images/bg-img.avif'); /* Path of image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -198,4 +198,26 @@ footer {
     background: #2c3e50;
     color: white;
     margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    background-color: #434c50; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.project a:hover {
+    background-color: #444b4f;  
+    transform: translateY(-3px); 
+}
+
+.project a:focus {
+    outline: none;  
+    box-shadow: 0 0 0 2px #b8c9d1;
 }
